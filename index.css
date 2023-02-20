@@ -1,0 +1,318 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.left{
+    height: 37.5rem;
+    width:25.5rem;
+    border-radius: 0px 0px 18rem 18rem;
+    margin-top:-10px;
+    margin-left: -50px;
+    background-image: linear-gradient(to bottom,hsl(293, 100%, 63%),hsl(264, 100%, 61%)); ;
+}
+.right{
+    z-index: -1;
+    position:absolute;
+    right:-10px;
+    bottom:0px;
+    height:37rem;
+    width:25rem;
+    border-radius: 18rem 0rem 0px 0px;
+    background-color: hsl(274, 57%, 93%); ;
+}
+.container{
+    position: absolute;
+    top:13vh;
+    display: grid;
+    grid-template-columns: 36rem auto;
+    align-items: center;
+    grid-gap:10rem;
+}
+.discription{
+    padding-right: 15vw;
+}
+
+.heading{
+    color:hsl(271, 36%, 24%);
+    font-weight: 700;
+    font-size:2.8rem;
+}
+.para{
+    z-index: 2;
+    font-size: 20px;
+    color:hsl(270, 7%, 64%);
+    line-height: 1.3rem;
+}
+/***************************************** CSS for mobile *********************************************/
+.mobile{
+    /* border:2px solid black; */
+    border-radius: 1.9rem;
+    height:32.5rem;
+    width:17rem;
+    padding:0.4rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color:hsl(0, 0%, 100%);
+    box-shadow: 7px 7px 20px;
+    justify-self: flex-end;
+}
+.mobile p{
+    font-size: 11.7px;
+}
+.innerMobile{
+    height:31.5rem;
+    width:16rem;
+    /* border:2px solid red; */
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 1.9rem;
+}
+.top{
+    display: grid;
+    color:hsl(0, 0%, 100%);
+    height: 16%;
+    grid-template-rows: 4fr 1.5fr;
+    border-radius:1.9rem 1.9rem 0.45rem 0.45rem;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+}
+.notch{
+    justify-self: center;
+    width:60%;
+    height:65%;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 0rem 0rem 1.2rem 1.2rem;
+}
+.navbar{
+    padding-left:1rem;
+    height: 55%;
+    display: grid;
+    grid-template-columns:0.5fr 1.5fr 10fr 0.5fr;
+    grid-column-gap:0.5rem;
+    padding-bottom: 0.24rem;
+}
+.lessThan{
+    height:1rem;
+    align-self: center;
+    grid-column: 1/ span 1;
+    grid-row: 1/span 2;
+}
+.tripleDot{
+    grid-column: 4/ span 4;
+    grid-row: 1/span 2;
+}
+.img{
+    align-self: center;
+    grid-row: 1/span 2;
+}
+.img img{
+    height: 2rem;
+    border-radius: 50%;
+    border:2px solid hsl(0, 0%, 100%); 
+}
+.text{
+    grid-row: 1/span 2;
+}
+.upperText{
+    font-weight: 700;
+    font-size:1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+.belowText{
+    color:hsl(276, 100%, 81%);
+    font-size: 0.6rem;
+    margin-top: 0px;
+}
+.tripleDot{
+    align-self:center;
+}
+.chat{
+    display:flex;
+    flex-direction: column;
+}
+
+.dog{
+    margin-right:0.3rem;
+    border-radius: 20%;
+    float: right;
+    margin-top:0.4rem;
+    display: inline;
+    height: 3rem;
+}
+.box7{
+    color:hsl(0, 0%, 100%);
+    margin-left:0.4rem;
+    width:80%;
+    margin-top: 0.4rem;
+    border-radius:0.8rem;
+    margin-bottom:0rem;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+}
+
+.box8{
+    color:hsl(0, 0%, 100%);
+    margin-left:0.4rem;
+    width:80%;
+    margin-top:0.4rem;
+    margin-bottom:0rem;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius:0.8rem;
+}
+.box7 p{
+    display: inline-block;
+}
+.box8 p{
+    display: inline-block;
+}
+
+.circle{
+    border:2px solid hsl(276, 100%, 81%);;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+    float:left;
+    border-radius: 50%;
+    height: 0.75rem;
+    width:0.75rem;
+    margin-top:10px;
+    margin-bottom:6px;
+}
+.x1{
+    color:hsl(276, 100%, 81%);
+    margin-top:10px;
+    margin-bottom:6px;
+}
+.x2{
+    font-weight: 700;
+    margin-top:10px;
+    margin-bottom:6px;
+    font-size: 16px !important;
+    margin-right:1rem;
+    float:right;
+}
+.box9{
+    height:20px;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    padding:8.4px;
+    color:hsl(206, 6%, 79%);
+    margin-top:0.4rem;
+    border-radius:1.45rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.placeholder{
+    display: inline;
+}
+.greaterThan{
+    position: relative;
+    top:-4px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 900 !important;
+    text-align: center;
+    font-size:1.2rem !important;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    float:right;
+    margin-top:-3px;
+    margin-bottom: 0px;
+    display:inline;
+    border-radius:50%;
+    height:1.6rem;
+    width:1.6rem;
+    padding-top:7px;
+    padding-left:3.5px;
+    padding-right:3.5px;
+    
+}
+.person1{
+    margin-left:0.4rem;
+    margin-top:0.4rem;
+    margin-bottom:0rem;
+    width:65%;
+    padding:0.35rem 0.35rem;
+    color:hsl(276, 55%, 52%);
+    background-color: hsl(274, 57%, 93%);
+    border-radius: 0.8rem;
+}
+.person2{
+    margin-right:0.4rem;
+    margin-top:0.4rem;
+    margin-bottom:0rem;
+    padding:0.35rem 0.35rem;
+    background-color:hsl(0, 0%, 100%); 
+    color:hsl(271, 15%, 43%);
+    border-radius:0.8rem;
+}
+.p21{
+    width:60%;
+    float:right;
+}
+.p22{
+    width:37%;
+    float:right;
+}
+
+@media only screen and (max-width:1050px){
+      .container{
+        grid-template-columns: none ;
+        grid-gap:3rem;       
+      }  
+      .mobile{
+        margin:auto;
+      }
+      .discription{
+        margin:auto;
+        text-align: center;
+        padding-right:0px;
+        margin-left:5vw;
+        margin-right:5vw;
+      }
+      .left{
+        height: 30rem;
+        width:17.5rem;
+        border-radius: 0px 0px 18rem 18rem;
+        margin-top:-10px;
+        margin-left: -50px;
+        background-image: linear-gradient(to bottom,hsl(293, 100%, 63%),hsl(264, 100%, 61%)); ;
+    }
+    .right{
+        z-index: -1;
+        position:absolute;
+        right:-10px;
+        bottom:-137px;
+        height:30rem;
+        width:17.5rem;
+        margin-bottom:-200px;
+        border-radius: 18rem 0rem 0px 0px;
+        background-color: hsl(274, 57%, 93%); ;
+    }
+
+    @media only screen and (min-width:750px){
+        .left{
+            width:22rem;
+        }
+        .right{
+            width:20rem;
+        }
+        .discription{
+            margin-left:12vw;
+            margin-right:12vw;
+        }
+    }
+    @media only screen and (max-width:350px){
+        .mobile{
+              height:25rem;
+              width:13.5rem;
+        }
+        .innerMobile{
+            height:24.7rem;
+            width:13.2rem;
+        }
+        .mobile p{
+            font-size:6.44px;
+        }
+    }
+}               
