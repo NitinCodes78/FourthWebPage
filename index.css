@@ -43,7 +43,7 @@ body{
     z-index: 2;
     font-size: 20px;
     color:hsl(270, 7%, 64%);
-    line-height: 1.3rem;
+    line-height: 1.8rem;
 }
 /***************************************** CSS for mobile *********************************************/
 .mobile{
@@ -292,10 +292,10 @@ body{
 
     @media only screen and (min-width:750px){
         .left{
-            width:22rem;
+            width:27rem;
         }
         .right{
-            width:20rem;
+            width:23rem;
         }
         .discription{
             margin-left:12vw;
@@ -313,6 +313,24 @@ body{
         }
         .mobile p{
             font-size:6.44px;
+        }
+    }
+
+    @media only screen and (min-height:920px){
+        .left{
+            height: 37.5rem;
+            width:25.5rem;
+        }
+        .right{
+            height:37rem;
+            width:25rem;
+        }
+        .heading{
+            font-size: 4.5rem;
+        }
+        .para{
+            font-size: 35px;
+            line-height: 40px;
         }
     }
 }               
